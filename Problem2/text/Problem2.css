@@ -1,0 +1,73 @@
+header .container .row .logo {
+	width: 100%;
+	max-width: 100%;	
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+	color: white;
+	line-height: 30px;
+	background-color: rgb(14, 28, 99);
+	border-bottom: 5px solid orange;
+	
+}
+
+header {
+	justify-content: center;
+	list-style-type: none;
+}
+
+header nav {
+	max-width: 1828px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(14, 28, 99);
+}
+
+header nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	
+}
+
+ nav ul li:hover a {
+	background-color: orange;
+	text-decoration: none;
+}
+
+main table th {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+main table td .score-table{
+	text-align: center;
+}
+/*.menu{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.menu li a {
+	display: inline-block;
+	color: blue;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.menu li:hover > 1{
+	background-color: rgb(242, 161, 51);
+}
+
+img{
+	max-width: 300px;
+}*/

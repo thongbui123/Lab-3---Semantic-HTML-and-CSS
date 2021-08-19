@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<title>Problem 7. News</title>
+	<style type="text/css">
+		a:link{
+			text-decoration: none;
+		}
+		.problem7-1{
+			width: 600px;
+			padding: 10px;
+			border: 1px solid #ddd;
+		}
+		.problem7-2{
+			margin-top: 50px;
+			width: 600px;
+			padding: 10px;
+			border: 1px solid #ddd;
+		}
+		.problem7-1 .topic::before{
+			content: "";
+			position: absolute;
+			width: 6px;
+			height: 14px;
+			left: 18px;
+			background-color: #DD3638;
+			transform: skew(-20deg);
+			-moz- transform: skew(-20deg);
+			-webkit- transform: skew(-20deg);
+			-o- transform: skew(-20deg);
+		}
+		.problem7-1 a .topic{
+			margin-left: 20px ;
+			color: #1783B6;
+			font-size: 15px;
+		}
+		a .main-title{
+			font-size: 23px;
+			color: #000;
+		}
+		.title >a{
+			color: #000;
+			font-size: 22px;
+			font-weight: bold;
+		}
+		.time{
+			margin-top: 2px;
+			font-size: 12px;
+			color: #C8C4C5;
+		}
+		.time a{
+			color: #7B838A;
+		}
+		.content{
+			font-weight: 400px;
+		}
+		hr{
+			border: none;
+			border-top:1px dashed #7B838A;
+			color:#7B838A;
+			width:95%;
+		}
+		.fa{
+			color: #7B838A;
+		}
+		.other-new li{
+			margin-top: 20px;
+		}
+		.other-new li a{
+			color: #000;
+		}
+		 .problem7-1 a:hover{
+			color: #2592FF;
+		}
+		.title-2 a{
+			color: #000;
+		}
+		.title-2 a:hover{
+			color: #2592FF;
+		}
+		.author{
+			margin-top: 20px;
+		}
+		.avatar, .other-info{
+			display: inline-block;
+		}
+		.avatar img{
+			max-width: 100%;
+			width: 90%;
+		}
+		.avatar{
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+		}
+		#name{
+			color: #47BDD5;
+			font-weight: bold;
+		}
+		.time-2{
+			color: #7B838A;
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div class="problem7-1">
+		<div><a href="#"><h4 class="topic">U23 CHÂU Á 2020</h4></a></div>
+		<div class="title">
+			<a href="#"><img src="images/btn_play.JPG" alt="Play" loading="lazy">Highlights U23 châu Á 2020: Qatar 2-2 Syria</a>
+			<p class="time">49 PHÚT TRƯỚC <a href="#">THỂ THAO</a></p>
+		</div>
+		<div class="content">
+			<h6>Sai lầm của hàng thủ U23 Qatar ở phút bù giờ khiến HLV Felix Sanchez cùng các học trò đánh rơi chiến thắng trong trận ra quân tại vòng chung kết U23 châu Á 2020 diễn ra tối 9/1.</h6>
+		</div>
+		<hr>
+		<ul type="disc" class="other-new">
+			<li><a href="#">U23 Nhật Bản 0-0 Saudi Arabia: Đại diện Tây Á dứt điểm dội cột</a></li>
+			<li><a href="#">Highlights U23 châu Á 2020: Uzbekistan 1-1 Iran <i class="fa fa-play-circle-o" aria-hidden="true"></i></a></li>
+			<li><a href="#">Cầu thủ Thái Lan lý giải nguyên nhân thất bại ở SEA Game 30</a></li>
+			<li><a href="#">Báo Trung Quốc bi quan trước trận gặp U23 Hàn Quốc</a></li>
+		</ul>
+	</div>
+	<div class="problem7-2">
+		<div class="title-2">
+			<h4><a href="#">Tổng hợp deal khuyễn mãi 09/01</a></h4>
+		</div>
+		<div class="content-2">
+			Mời anh em chia sẻ thêm những ưu đãi giảm giá từ các trang thương mại điện tử lớn tại Việt Nam. Những deal nổi bật được cập nhật hàng ngày có giá trị theo giờ, theo ngày hoặc đến khi hết sản phẩm
+		</div>
+		<div class="author">
+			<a href="#"><img src="images/avatar.JPG" alt="avatar" loading="lazy" class="avatar"></a>
+			<div class="other-info">
+				<a href="#" id="name">Minh Dự.</a>
+				<span class="time-2">- 4 giờ trước - 2.168 xem</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
